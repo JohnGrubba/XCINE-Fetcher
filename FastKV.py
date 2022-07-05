@@ -20,9 +20,8 @@ print(f"Done in {str(round(time.time() - s, 2))}s")
 def indexicate(keys: list = [], lst: list = []):
     indexers = []
     for key in keys:
-        print(f"Indexing {key}...")
         indx = {}
-        for element, i in zip(lst, range(99999999)): indx[element[key]] = i
+        for element, i in zip(lst, range(len(lst))): indx[element[key]] = i
         indexers.append(indx)
     return indexers
 
