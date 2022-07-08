@@ -13,7 +13,6 @@ print(f"Done in {str(round(time.time() - s, 2))}s")
 #
 #   [{"arg1": "abc", "arg2": "acb"}, ...]
 #   
-
 # Indexicate Function indexes the given keys from the list
 # To faster access certain elements by a value from a key
 
