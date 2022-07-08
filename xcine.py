@@ -3,6 +3,8 @@ import json
 from requests.structures import CaseInsensitiveDict
 from time import time
 
+# Everything was done without bs4 because it was easier this way, since many variables hide in scripts.
+
 url = "https://xcine.me/filme-minions-2015-26may-149-stream/deutsch"
 
 start = time()

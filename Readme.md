@@ -9,3 +9,6 @@ This Site doesn't work in the US but you can use VPN to bypass this.
 
 ## Still works?
 Check the Actions Tab.
+
+## How to use it?
+Just insert your URL into xcine.py and run it.
