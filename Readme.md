@@ -1,5 +1,5 @@
 # Fast XCINE.ME Fetcher
-![CI workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 ## What is it?
 This program is capable of getting a streaming link of any movie on https://xcine.me/ in under a second.
 Backtests have never been over 0.6s with an average internet connection in austria.
