@@ -8,6 +8,18 @@ class xcineAPI:
         self.debug = debug
         self.cookie = cookie
 
+    def search(self, query: str) -> dict:
+        """Searches xcine and returns a list of films
+
+        Args:
+            query (str): Search Query
+
+        Returns:
+            dict: JSON Response from xcine
+        """
+        r = requests.post("https://xcine.me/search", data=f"key={query}&getInfo=1", headers={"Content-Type": "application/x-www-form-urlencoded"}).json()
+        return r
+
     def get_stream(self, url: str) -> None:
         """
         Gets a Download Link for your Movie
